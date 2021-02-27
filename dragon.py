@@ -11,7 +11,7 @@ class Dragon():
 		self.settings = settings
 
 
-		self.image = pygame.image.load('char.png')
+		self.image = pygame.image.load('assets/char.png')
 		self.rect = self.image.get_rect()
 		self.screen_rect = screen.get_rect()
 
@@ -33,7 +33,9 @@ class Dragon():
 			self.center -= self.settings.dragon_speed
 
 		self.rect.centerx = self.center
- 
+
+	def center_(self):
+ 		self.center = self.screen_rect.centerx
 
 	def blitme(self):
 

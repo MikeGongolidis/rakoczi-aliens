@@ -11,7 +11,7 @@ class Caterpie(Sprite):
 
 		self.settings = settings
 
-		self.image = pygame.image.load('cater.png')
+		self.image = pygame.image.load('assets/cater.png')
 
 		self.rect = self.image.get_rect()
 

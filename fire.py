@@ -9,7 +9,7 @@ class Fireball(Sprite):
 		super(Fireball,self).__init__()
 		self.screen = screen
 
-		self.image = pygame.image.load('fireball.png')
+		self.image = pygame.image.load('assets/fireball.png')
 
 		self.rect = self.image.get_rect()
 		self.screen_rect = screen.get_rect()
