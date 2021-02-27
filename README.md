@@ -1,3 +1,5 @@
-# This is the README of Rakoczi-aliens
+# Funny alrternation of Alien Invaders
 
-## wait for it to get amazing
+![](assets/demo_game.gif)
+
+
